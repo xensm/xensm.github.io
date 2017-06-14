@@ -1,0 +1,19 @@
+/*Note that the default font in Bootstrap is done in rem which appears very small
+on some devices (incuding my surface laptop!) so I need to change the default here*/
+body{
+	font-size: 14px;
+}
+.navbar-nav .nav-link {
+	display: inline-block;
+}
+img{
+	width: 100%;
+}
+.top {
+	background-image: url("../img/pianohead.jpeg");
+}
+.jumbotron {
+  background-image: url("../img/pianohead.jpeg");
+  background-size: cover;
+  color: white;
+}
